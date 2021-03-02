@@ -14,7 +14,7 @@ public class OperatorActivity {
 		// Declare numbers to be operated
 		int i = 8;
 		int j = 5;
-		
+
 		// Subtract numbers
 		int result = i-j;
 		
@@ -22,11 +22,10 @@ public class OperatorActivity {
 		System.out.println("Difference = " + result);
 		
 		// Add numbers
-		
-		
+		int result2 = i + j;
 		// Print result
-		
-		
+		System.out.println("Additional =" + result2);
+
 	}
 
 }
