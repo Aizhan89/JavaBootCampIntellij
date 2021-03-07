@@ -63,6 +63,7 @@ public class Employee {
     }
 
     public void introduce() {
-        System.out.println("My name is " + name + " and I am " + age + "years old" + "I am work as" + job + "in" + company);
+        System.out.println("My name is " + name + " and I am " + age + " years old" + " I work as" + job + " in " + company);
     }
+
 }

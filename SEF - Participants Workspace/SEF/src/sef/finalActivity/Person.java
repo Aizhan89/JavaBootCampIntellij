@@ -17,7 +17,10 @@ public class Person {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name) throws IllegalNameException {
+        if (name.matches(".*\\d.*")) {
+            throw new IllegalNameException("Name contains numbers");
+        }
         this.name = name;
     }
 
